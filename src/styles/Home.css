@@ -1,0 +1,85 @@
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    text-decoration: underline;
+}
+#home {
+    padding: 0 190px;
+    color: #000;
+}
+.header-link {
+    display: flex;
+    justify-content: space-between;
+}
+.header-link a {
+    font-size: 14px;
+}
+
+.heading-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.title-block {
+    text-align: center;
+}
+.title-block-2 {
+    font-size: 12px;
+    margin-top: 15px;
+}
+.title-block-3 {
+    font-size: 12px;
+    margin-top: 15px;
+}
+.title {
+    padding: 10px 0;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: bold;
+}
+.intoText {
+    text-align: justify;
+}
+#letterPanel {
+    background-color: #FFFF99;
+    color: #403426;
+    padding: 10px 70px;
+    margin-top: 20px;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+.letterPanelTable {
+    color: #403426;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.colFirst {
+    font-size: 11px;
+    font-weight: bold;
+    width: 110px;
+    text-align: left;
+    padding: 4px 7px;
+    vertical-align: top;
+}
+input {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+    border: 1px solid #403426;
+    margin-left: -2px;
+}
+button {
+    border: 1px solid #403426;
+    background-color: #FFFF99;
+}
+.searchButton {
+    text-align: right;
+    width: 80px;
+}
